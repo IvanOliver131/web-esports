@@ -2,3 +2,4 @@ npm i
 *-------- Apagar o que não iremos utilizar --------*
 https://tailwindcss.com/docs/installation/using-postcss - para utilizar o tailwindcss
 npm i phosphor-react
+npm install @radix-ui/react-dialog - MODAL
