@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 
+import axios from "axios";
+
 import "./styles/global.css";
 
 import logoImg from "./assets/logo-nlw-esports.svg";
 
 import { GameBanner } from "./components/GameBanner";
 import { CreateAdBanner } from "./components/CreateAdBanner.tsx";
-import { FormModal } from "./components/FormModal";
+import { CreateAdModal } from "./components/CreateAdModal";
 
 interface Game {
   id: string;
@@ -22,11 +24,9 @@ function App() {
   const [games, setGames] = useState<Game[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3333/games")
-      .then((response) => response.json())
-      .then((data) => {
-        setGames(data);
-      });
+    axios("http://localhost:3333/games").then((response) => {
+      setGames(response.data);
+    });
   }, []);
 
   return (
@@ -54,21 +54,10 @@ function App() {
         })}
       </div>
 
-      {/* DENTRO DO BANNER ESTAR O COMPONENTE QUE DISPARA O MODAL */}
+      {/* DENTRO DO BANNER ESTA O COMPONENTE QUE DISPARA O MODAL */}
       <Dialog.Root>
         <CreateAdBanner />
-
-        <Dialog.Portal>
-          <Dialog.Overlay className="bg-black/60 inset-0 fixed" />
-
-          <Dialog.Content className="fixed bg-[#2a2634] py-8 px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg w-[480px] shadow-lg shadow-black/50">
-            <Dialog.Title className="text-3xl font-black">
-              Publique um anúncio
-            </Dialog.Title>
-
-            <FormModal />
-          </Dialog.Content>
-        </Dialog.Portal>
+        <CreateAdModal />
       </Dialog.Root>
     </div>
   );

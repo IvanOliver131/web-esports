@@ -1,5 +1,17 @@
-npm i 
+npm install 
 *-------- Apagar o que não iremos utilizar --------*
 https://tailwindcss.com/docs/installation/using-postcss - para utilizar o tailwindcss
-npm i phosphor-react
+npm install phosphor-react
 npm install @radix-ui/react-dialog - MODAL
+npm install @radix-ui/react-checkbox - CHECKBOX
+npm install @radix-ui/react-select - SELECT
+npm install @radix-ui/react-toggle-group - TOGGLE GROUP
+npm install axios
+
+// Melhorar a aplicação com 
+responsividade
+toast
+autenticação 
+npm install yup
+npm install react-hook-form
+keen-slider.io
