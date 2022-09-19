@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NLW-eSports" title="" src="https://raw.githubusercontent.com/jeanoliveira92/nlw-esports-ignite/58a27076654e677c74014846e704c86e4fbbdeed/web/src/assets/eSportsNLWLogo.svg" width="250px" />
+    <img alt="NLW-eSports" title="" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/58a27076654e677c74014846e704c86e4fbbdeed/web/src/assets/eSportsNLWLogo.svg" width="250px" />
 </h1>
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -9,13 +9,14 @@
 </p>
 
 ## Landing Page
-  <img alt="Frontend" src="https://raw.githubusercontent.com/jeanoliveira92/nlw-esports-ignite/main/screenshot.jpg" width="100%">
+
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/main/screenshot.jpg" width="100%">
   
 ## Splash Screen
-  <img alt="Frontend" src="https://raw.githubusercontent.com/jeanoliveira92/nlw-esports-ignite/main/screenshot2.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/main/screenshot2.jpg" width="100%">
   
 ## Mobile
-  <img alt="Frontend" src="https://raw.githubusercontent.com/jeanoliveira92/nlw-esports-ignite/main/screenshot3.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/main/screenshot3.jpg" width="100%">
 
 ## :rocket: Tecnologias
 
@@ -39,8 +40,7 @@ Next Level Week eSports
 
 ## 🔖 Layout
 
-O layout você poderá acessar através [desse link](https://www.figma.com/file/Dyzy79bRaBq3PY7MyrZOlf/NLW-eSports-(Community)?node-id=0%3A1).
-
+O layout você poderá acessar através [desse link](<https://www.figma.com/file/Dyzy79bRaBq3PY7MyrZOlf/NLW-eSports-(Community)?node-id=0%3A1>).
 
 ## :memo: Licença
 
