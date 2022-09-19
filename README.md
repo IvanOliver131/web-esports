@@ -10,13 +10,13 @@
 
 ## Landing Page
 
-  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/main/screenshot.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/master/screenshot.jpg" width="100%">
   
 ## Splash Screen
-  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/main/screenshot2.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/master/screenshot2.jpg" width="100%">
   
 ## Mobile
-  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/main/screenshot3.jpg" width="100%">
+  <img alt="Frontend" src="https://raw.githubusercontent.com/IvanOliver131/web-esports/master/screenshot3.jpg" width="100%">
 
 ## :rocket: Tecnologias
 
